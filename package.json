@@ -1,9 +1,17 @@
 {
-    "name": "nm7",
-    "displayName": "nm",
+    "name": "vscode-nm",
+    "displayName": "nonmem",
     "description": "nonmem syntax highlighter",
     "version": "0.0.1",
-    "publisher": "devin",
+    "publisher": "dpastoor",
+    "bugs": {
+        "url": "https://github.com/dpastoor/vscode-nm/issues"
+    },
+    "homepage": "https://github.com/dpastoor/vscode-nm/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dpastoor/vscode-nm.git"
+    },
     "engines": {
         "vscode": "^1.5.0"
     },
