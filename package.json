@@ -1,0 +1,26 @@
+{
+    "name": "nm7",
+    "displayName": "nm",
+    "description": "nonmem syntax highlighter",
+    "version": "0.0.1",
+    "publisher": "devin",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "nm7",
+            "aliases": ["nm7", "nm7"],
+            "extensions": [".mod",".ctl",".lst"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "nm7",
+            "scopeName": "source.nm7",
+            "path": "./syntaxes/nm7.tmLanguage"
+        }]
+    }
+}
