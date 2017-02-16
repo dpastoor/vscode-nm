@@ -2,7 +2,7 @@
     "name": "vscode-nm",
     "displayName": "nonmem",
     "description": "nonmem syntax highlighter",
-    "version": "0.0.1",
+    "version": "0.2.0",
     "publisher": "dpastoor",
     "bugs": {
         "url": "https://github.com/dpastoor/vscode-nm/issues"
@@ -19,16 +19,27 @@
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "nm7",
-            "aliases": ["nm7", "nm7"],
-            "extensions": [".mod",".ctl",".lst"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "nm7",
-            "scopeName": "source.nm7",
-            "path": "./syntaxes/nm7.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "nm7",
+                "aliases": [
+                    "nm7",
+                    "nm7"
+                ],
+                "extensions": [
+                    ".mod",
+                    ".ctl",
+                    ".lst"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "nm7",
+                "scopeName": "source.nm7",
+                "path": "./syntaxes/nm7.tmLanguage"
+            }
+        ]
     }
 }
